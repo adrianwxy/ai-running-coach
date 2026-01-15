@@ -46,6 +46,7 @@ It's a SQLite database designed around training sessions, splits, gear, location
 - Composite primary keys support multiple runs per day.
 - Check constraints enforce valid ranges for subjective metrics.
 - Foreign key constraints maintain referential integrity.
+- Default value to minimize redundant manual data entry while maintaining data quality.
 - Created and updated timestamps enable audit trail and data versioning.
 - Future extensibility (injury log, races, interactive dashboard).
 
