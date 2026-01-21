@@ -49,7 +49,7 @@ CREATE TABLE "split_log" (
 );
 
 
-CREATE TABLE shoes (
+CREATE TABLE "shoes" (
 	id INTEGER PRIMARY KEY,
 	brand TEXT NOT NULL,
 	full_name TEXT NOT NULL,
