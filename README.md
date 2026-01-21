@@ -39,8 +39,7 @@ It's a SQLite database designed around training sessions, splits, gear, location
 - **shoe** - Gear tracking
   - Tracks mileage per shoe for rotation and retirement scheduling.
   - Carbon plate categorization for performance analysis.
-- **city_gps** - location metadata
-  - location and timezone context.
+
 
 ### Design Decisions
 - Composite primary keys support multiple runs per day.
