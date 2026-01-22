@@ -1,7 +1,7 @@
 CREATE TABLE "main_log" (
 	"log_id"	INTEGER,
 	"date"	TEXT NOT NULL,
-	"run_of_the_day"	INTEGER NOT NULL DEFAULT 1,
+	"run_of_the_day"	INTEGER NOT NULL,
 	"time"	TEXT,
 	"latitude"	REAL,
 	"longitude"	REAL,
